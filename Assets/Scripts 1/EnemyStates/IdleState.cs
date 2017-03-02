@@ -5,7 +5,7 @@ public class IdleState : EnemyStateInterface
 {
 	private Enemy enemy;
 	private float idleTimer;
-	private float idleDuration = 3;
+	private float idleDuration;
 	
 	public void Enter(Enemy enemy)
 	{
@@ -35,6 +35,7 @@ public class IdleState : EnemyStateInterface
 	
 	private void Idle()
 	{
+		idleDuration = enemy.idleDuration;
 		enemy.myAnimator.SetFloat("speed", 0);
 		
 		//Delta time is amount of time since last frame was rendered

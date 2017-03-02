@@ -14,6 +14,11 @@ public class Enemy : Character
 	[SerializeField]
 	private float throwRange;
 	
+	[SerializeField]
+	public float idleDuration = 600;
+	
+	public int pointsToAdd = 5;
+	
 	public bool inThrowRange
 	{
 		get
@@ -50,10 +55,16 @@ public class Enemy : Character
 		{
 			myAnimator.SetTrigger("death");
 			deathTimer = deathTimer - 1;
-			
+
 			if (deathTimer == 0 && gameObject.tag != "Boss")
 			{
 				Destroy(gameObject);
+				ScoreManager.AddPoints(pointsToAdd);
+			}
+			
+			if (deathTimer == 0 && gameObject.tag == "Boss")
+			{
+				ScoreManager.AddPoints(pointsToAdd);
 			}
 		}
 	}

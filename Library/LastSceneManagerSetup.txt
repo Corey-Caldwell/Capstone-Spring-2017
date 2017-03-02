@@ -2,9 +2,6 @@ sceneSetups:
 - path: Assets/Start.unity
   isLoaded: 0
   isActive: 0
-- path: Assets/playerSelection.unity
-  isLoaded: 0
-  isActive: 0
 - path: Assets/Level 1.unity
   isLoaded: 0
   isActive: 0
@@ -12,5 +9,11 @@ sceneSetups:
   isLoaded: 0
   isActive: 0
 - path: Assets/BossBattle.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/World 2 Stage 1.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/World 2 Boss.unity
   isLoaded: 1
   isActive: 1

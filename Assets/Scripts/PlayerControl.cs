@@ -53,6 +53,10 @@ public class PlayerControl : MonoBehaviour {
 
     void Update ()
 	{
+		if(Time.timeScale == 0f)
+		{
+			return;
+		}
         print(change);
 
         if (Input.GetKeyUp(KeyCode.F) && attacking == true)
