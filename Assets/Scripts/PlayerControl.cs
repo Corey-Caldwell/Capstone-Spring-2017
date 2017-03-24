@@ -22,6 +22,7 @@ public class PlayerControl : MonoBehaviour {
     public float speed;
     public float jump;
     private float moveVelocity;
+	
     //private bool grounded = true;
     private SpriteRenderer mySpriteRenderer;
     public Animator anim;

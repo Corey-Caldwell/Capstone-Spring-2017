@@ -20,7 +20,7 @@ public class portal : MonoBehaviour {
         }
     }
 	
-	void OnCollisionEnter2D(Collider2D other)
+	void OnCollisionEnter2D(Collision2D other)
 	{
         if (other.gameObject.tag == "Player" && (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.E)))
 		{
@@ -28,7 +28,7 @@ public class portal : MonoBehaviour {
         }
     }
 	
-	void OnCollisionExit2D(Collider2D other)
+	void OnCollisionExit2D(Collision2D other)
 	{
         if (other.gameObject.tag == "Player" && (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.E)))
 		{

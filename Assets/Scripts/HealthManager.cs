@@ -25,8 +25,10 @@ public class HealthManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (isDead == true) Application.LoadLevel(Application.loadedLevel);
-        
+        if (isDead == true)
+        {
+            Application.LoadLevel(Application.loadedLevel);
+        }
         if (playerHealth <= 0 && !isDead)
 		{
 			playerHealth = 0;

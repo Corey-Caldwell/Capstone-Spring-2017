@@ -1,0 +1,7 @@
+using UnityEngine;
+using System.Collections;
+
+var bounceForce : float = 10;
+
+ 
+function OnCollisionEnter(hit : Collision) { if (hit.gameObject.tag == "Player") { hit.rigidbody.AddForce(bounceForce * transform.up, ForceMode.VelocityChange); } } 
