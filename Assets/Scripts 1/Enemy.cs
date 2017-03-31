@@ -62,7 +62,7 @@ public class Enemy : Character
 				ScoreManager.AddPoints(pointsToAdd);
 			}
 			
-			if (deathTimer == 1000 && gameObject.tag == "Boss")
+			if (deathTimer == 0 && gameObject.tag == "Boss")
 			{
 				ScoreManager.AddPoints(pointsToAdd);
 			}

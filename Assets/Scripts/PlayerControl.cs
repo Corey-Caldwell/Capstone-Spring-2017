@@ -22,7 +22,6 @@ public class PlayerControl : MonoBehaviour {
     public float speed;
     public float jump;
     private float moveVelocity;
-	
     //private bool grounded = true;
     private SpriteRenderer mySpriteRenderer;
     public Animator anim;
@@ -177,7 +176,7 @@ public class PlayerControl : MonoBehaviour {
             isDead = true;
         }
 		
-		else if (collision.gameObject.tag == "Enemy" || collision.gameObject.tag == "Boss")
+		else if (collision.gameObject.tag == "Enemy")
 		{
 			HurtPlayer(enemyDamage);
 			//playerHealth = playerHealth - 10;

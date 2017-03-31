@@ -7,7 +7,7 @@ public class FollowCamera : MonoBehaviour
     public float interpVelocity;
     public float minDistance;
     public float followDistance;
-    private GameObject target;
+    public GameObject target;
     public Vector3 offset;
     Vector3 targetPos;
     // Use this for initialization
