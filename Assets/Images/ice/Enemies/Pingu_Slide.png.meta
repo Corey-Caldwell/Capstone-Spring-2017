@@ -1,9 +1,19 @@
 fileFormatVersion: 2
 guid: 461e1e805369ee3478fa34083c18bc95
-timeCreated: 1487302656
+timeCreated: 1493172215
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Pingu_Slide_0
+    21300002: Pingu_Slide_1
+    21300004: Pingu_Slide_2
+    21300006: Pingu_Slide_3
+    21300008: Pingu_Slide_4
+    21300010: Pingu_Slide_5
+    21300012: Pingu_Slide_6
+    21300014: Pingu_Slide_7
+    21300016: Pingu_Slide_8
+    21300018: Pingu_Slide_9
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -34,7 +44,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -58,9 +68,147 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Pingu_Slide_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 37
+        width: 70
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pingu_Slide_1
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 63
+        width: 106
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pingu_Slide_2
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 39
+        width: 140
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pingu_Slide_3
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 39
+        width: 140
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pingu_Slide_4
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 64
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pingu_Slide_5
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 53
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pingu_Slide_6
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 52
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pingu_Slide_7
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 48
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pingu_Slide_8
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 53
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pingu_Slide_9
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 42
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 
