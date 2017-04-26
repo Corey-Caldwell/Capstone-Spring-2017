@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 39421c38cc112654ebc11f2f0c1ec0f2
-timeCreated: 1488347009
+timeCreated: 1493174017
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -79,10 +79,10 @@ TextureImporter:
       name: Pingu_Walk_0
       rect:
         serializedVersion: 2
-        x: 27
+        x: 28
         y: 38
-        width: 65
-        height: 124
+        width: 84
+        height: 122
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -92,9 +92,9 @@ TextureImporter:
       name: Pingu_Walk_1
       rect:
         serializedVersion: 2
-        x: 131
+        x: 151
         y: 38
-        width: 76
+        width: 78
         height: 123
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -105,10 +105,10 @@ TextureImporter:
       name: Pingu_Walk_2
       rect:
         serializedVersion: 2
-        x: 242
+        x: 272
         y: 38
-        width: 85
-        height: 122
+        width: 64
+        height: 124
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,10 +118,10 @@ TextureImporter:
       name: Pingu_Walk_3
       rect:
         serializedVersion: 2
-        x: 365
+        x: 374
         y: 38
-        width: 65
-        height: 124
+        width: 84
+        height: 122
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,9 +131,9 @@ TextureImporter:
       name: Pingu_Walk_4
       rect:
         serializedVersion: 2
-        x: 471
+        x: 494
         y: 38
-        width: 79
+        width: 76
         height: 123
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -144,10 +144,10 @@ TextureImporter:
       name: Pingu_Walk_5
       rect:
         serializedVersion: 2
-        x: 589
+        x: 610
         y: 38
-        width: 84
-        height: 122
+        width: 64
+        height: 124
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
