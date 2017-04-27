@@ -57,7 +57,6 @@ public class PlayerControl : MonoBehaviour {
 		{
 			return;
 		}
-        print(change);
 
         if (Input.GetKeyUp(KeyCode.F) && attacking == true)
         {

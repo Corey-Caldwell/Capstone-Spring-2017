@@ -20,9 +20,12 @@ sceneSetups:
 - path: Assets/Level3.unity
   isLoaded: 0
   isActive: 0
-- path: Assets/level3.2.unity
-  isLoaded: 1
-  isActive: 0
 - path: Assets/IceBoss.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/Desert.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/DesertBoss.unity
   isLoaded: 1
   isActive: 1
