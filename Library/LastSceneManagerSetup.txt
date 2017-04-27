@@ -2,13 +2,13 @@ sceneSetups:
 - path: Assets/Start.unity
   isLoaded: 0
   isActive: 0
-- path: Assets/Level 1.unity
+- path: Assets/World 1 Stage 1.unity
   isLoaded: 0
   isActive: 0
-- path: Assets/level2.unity
+- path: Assets/World 1 Stage 2.unity
   isLoaded: 0
   isActive: 0
-- path: Assets/BossBattle.unity
+- path: Assets/World 1 Boss.unity
   isLoaded: 0
   isActive: 0
 - path: Assets/World 2 Stage 1.unity
@@ -20,12 +20,15 @@ sceneSetups:
 - path: Assets/World 2 Boss.unity
   isLoaded: 0
   isActive: 0
-- path: Assets/Level3.unity
+- path: Assets/World 3 Stage 1.unity
   isLoaded: 0
   isActive: 0
-- path: Assets/level3.2.unity
+- path: Assets/World 3 Stage 2.unity
   isLoaded: 0
   isActive: 0
-- path: Assets/IceBoss.unity
+- path: Assets/World 3 Boss.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/World 5 Stage 1.unity
   isLoaded: 1
   isActive: 1
