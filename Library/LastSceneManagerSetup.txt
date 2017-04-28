@@ -30,5 +30,8 @@ sceneSetups:
   isLoaded: 0
   isActive: 0
 - path: Assets/World 5 Stage 1.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/World 5 Stage 2.unity
   isLoaded: 1
   isActive: 1
