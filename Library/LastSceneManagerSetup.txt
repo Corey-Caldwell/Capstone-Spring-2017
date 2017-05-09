@@ -29,15 +29,15 @@ sceneSetups:
 - path: Assets/World 3 Boss.unity
   isLoaded: 0
   isActive: 0
+- path: Assets/World 4 Stage 1.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/World 4 Boss.unity
+  isLoaded: 1
+  isActive: 1
 - path: Assets/World 5 Stage 1.unity
   isLoaded: 0
   isActive: 0
-- path: Assets/Desert.unity
-  isLoaded: 0
-  isActive: 0
-- path: Assets/DesertBoss.unity
-  isLoaded: 0
-  isActive: 0
 - path: Assets/EndScreen.unity
-  isLoaded: 1
-  isActive: 1
+  isLoaded: 0
+  isActive: 0
