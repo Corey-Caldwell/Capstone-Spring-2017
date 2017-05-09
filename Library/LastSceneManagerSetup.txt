@@ -1,7 +1,10 @@
 sceneSetups:
 - path: Assets/Start.unity
-  isLoaded: 1
-  isActive: 1
+  isLoaded: 0
+  isActive: 0
+- path: Assets/playerSelection.unity
+  isLoaded: 0
+  isActive: 0
 - path: Assets/World 1 Stage 1.unity
   isLoaded: 0
   isActive: 0
@@ -33,8 +36,8 @@ sceneSetups:
   isLoaded: 0
   isActive: 0
 - path: Assets/World 4 Boss REAL.unity
-  isLoaded: 0
-  isActive: 0
+  isLoaded: 1
+  isActive: 1
 - path: Assets/World 5 Stage 1.unity
   isLoaded: 0
   isActive: 0

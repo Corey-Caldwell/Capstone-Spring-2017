@@ -46,6 +46,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Images\ice\Boy\shoot.cs" />
+     <Compile Include="Assets\Images\ice\Boy\snowball.cs" />
      <Compile Include="Assets\Scripts 1\AttackBehaviour.cs" />
      <Compile Include="Assets\Scripts 1\Character.cs" />
      <Compile Include="Assets\Scripts 1\Enemy.cs" />
@@ -73,6 +75,7 @@
      <Compile Include="Assets\Scripts\Teleport.cs" />
      <Compile Include="Assets\Scripts\animations.cs" />
      <Compile Include="Assets\Scripts\attacktrigger.cs" />
+     <Compile Include="Assets\Scripts\floorspike.cs" />
      <Compile Include="Assets\Scripts\icycle.cs" />
      <Compile Include="Assets\Scripts\loadPlayer.cs" />
      <Compile Include="Assets\Scripts\portal.cs" />
