@@ -20,7 +20,7 @@ public class selector : MonoBehaviour {
     public void left() {
         if (num == 0)
         {
-            num = 1;
+            num = 2;
         }
         else if (num > 0)
             {
