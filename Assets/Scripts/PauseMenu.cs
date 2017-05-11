@@ -23,6 +23,7 @@ public class PauseMenu : MonoBehaviour {
 		if (Input.GetKeyDown (KeyCode.Escape)) {
 			isPaused = !isPaused;
 		}
+		
 		if (isControlOn) {
 			controlMenuCanvas.SetActive (true);
 		} else {
