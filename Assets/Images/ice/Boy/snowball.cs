@@ -17,17 +17,16 @@ public class snowball : MonoBehaviour {
         if (rb.velocity.y < velocity.y) {
             rb.velocity = velocity;
         }
+        Explode();
 	}
-    void OnCollisionEnter2D(Collision2D col) {
+    void OnCollisionEnter2D(Collider2D col) {
         rb.velocity = new Vector2(velocity.x, -velocity.y);
-        if (col.collider.tag == "enemy") {
+        if (col.tag == "Enemy" || col.tag == "Spike" || col.tag == "Ground") {
             Destroy(col.gameObject);
             Explode();
         }
-        if (col.contacts[0].normal.x != 0 || velocity.y == 0) {
-            Explode();
-        }
     }
+
 
     void Explode() {
         Destroy(this.gameObject);
