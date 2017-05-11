@@ -31,6 +31,13 @@ public class Enemy : Character
 		}
 	}
 	
+	[SerializeField]
+	public Transform[] spawnLocation;
+	[SerializeField]
+	public GameObject[] portalPrefab;
+	[SerializeField]
+	public GameObject[] portalClone;
+	
 	// Use this for initialization
 	public override void Start ()
 	{
@@ -113,6 +120,11 @@ public class Enemy : Character
 		return facingRight ? Vector2.right : Vector2.left;
 	}
 	
+	void spawnPortal()
+	{
+		portalClone[0] = Instantiate(portalPrefab[0], spawnLocation[0].transform.position, Quaternion.Euler(0,0,0)) as GameObject;
+	}
+	
 	public override void OnTriggerEnter2D(Collider2D other)
 	{
 		base.OnTriggerEnter2D(other);
@@ -127,6 +139,11 @@ public class Enemy : Character
 		{
 			myAnimator.SetTrigger("death");
 			yield return null;
+		}
+		
+		if (enemyHealth.CurrentVal == 5)
+		{
+			spawnPortal();
 		}
 	}
 	
